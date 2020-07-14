@@ -1,5 +1,6 @@
 
 public class Aula2 {
-String nome;
+	
+	String nome;
 
 }
