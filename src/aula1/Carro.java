@@ -12,16 +12,16 @@ public class Carro {
 		
 	}
 	
-	public void freia() {
-		
+	public void freiar() {
+		System.out.println("estou freiando");
 	}
 	
-	public void buzina() {
-		
+	public void buzinar() {
+		System.out.println("estou buzinando");
 	}
 	
-	public void abrePorta() {
-		
+	public void abrirPorta() {
+		System.out.println("estou abrindo a porta");
 	}
 
 }
