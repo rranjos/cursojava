@@ -18,6 +18,8 @@ public class Aula4 {
 			resultado = Integer.parseInt(digito1) + Integer.parseInt(digito2);
 		} else if ( operacao.equals("x")) {
 			resultado = Integer.parseInt(digito1) * Integer.parseInt(digito2);
+		}else if(operacao.equals("/")) {
+			resultado = Integer.parseInt(digito1) / Integer.parseInt(digito2);
 		}
 			
 		JOptionPane.showMessageDialog(null, resultado);
